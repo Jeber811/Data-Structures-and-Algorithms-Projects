@@ -1,10 +1,20 @@
-/*
-	Jake Weber
-	P2 - Hexagram
-	Professor Guha
-	1/28/24
-*/
+Jake Weber
+1/28/24
 
+// Backtracking implementation to efficiently compute the solution of a problem with 12! cases
+
+// Given a hexagram with 12 points, find distinct points that can be filled in to satisfy the magic
+// sum. The magic sum is the number that every line in the hexagram must add to. The hexagram will
+// look something like this:
+
+/*
+		       0
+	       0    0	 0    0
+		  0	   0
+	       0     0	 0   0
+		       0
+*/
+	
 import java.util.Scanner;
 
 public class hexagram {
